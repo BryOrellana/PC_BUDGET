@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Categories_Procesadores">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/containerProduct1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_margin"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/small_margin"
+                android:background="@drawable/backbround_for_products_circle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/processor_img"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:src="@drawable/fuente"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title_processor_product"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginEnd="@dimen/small_margin"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/Fuente_name"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/backgroundWhite"
+                    android:textSize="@dimen/OpcionesSize"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/processor_img"
+                    app:layout_constraintTop_toTopOf="@+id/processor_img"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/precio_processor_product1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/precio_fuente"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/backgroundWhite"
+                    android:textSize="@dimen/OpcionesSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/processor_img"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/starts_rating_1"
+                    app:layout_constraintTop_toBottomOf="@+id/starts_rating_1"
+                    tools:ignore="SpUsage" />
+
+                <ImageView
+                    android:id="@+id/starts_rating_1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:src="@drawable/rating_stars"
+                    app:layout_constraintBottom_toTopOf="@+id/precio_processor_product1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/title_processor_product"
+                    app:layout_constraintTop_toBottomOf="@+id/title_processor_product"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/containerProduct2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_margin"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/small_margin"
+                android:background="@drawable/backbround_for_products_circle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/processor_img2"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:src="@drawable/fuente"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title_processor_product2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginEnd="@dimen/small_margin"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/Fuente_name"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/backgroundWhite"
+                    android:textSize="@dimen/OpcionesSize"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/processor_img2"
+                    app:layout_constraintTop_toTopOf="@+id/processor_img2"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/precio_processor_product2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/precio_fuente"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/backgroundWhite"
+                    android:textSize="@dimen/OpcionesSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/processor_img2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/starts_rating_2"
+                    app:layout_constraintTop_toBottomOf="@+id/starts_rating_2"
+                    tools:ignore="SpUsage" />
+
+                <ImageView
+                    android:id="@+id/starts_rating_2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:src="@drawable/rating_stars"
+                    app:layout_constraintBottom_toTopOf="@+id/precio_processor_product2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/title_processor_product2"
+                    app:layout_constraintTop_toBottomOf="@+id/title_processor_product2"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/containerProduct3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_margin"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/small_margin"
+                android:background="@drawable/backbround_for_products_circle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/processor_img3"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:src="@drawable/fuente"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title_processor_product3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginEnd="@dimen/small_margin"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/Fuente_name"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/backgroundWhite"
+                    android:textSize="@dimen/OpcionesSize"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/processor_img3"
+                    app:layout_constraintTop_toTopOf="@+id/processor_img3"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/precio_processor_product3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/precio_fuente"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/backgroundWhite"
+                    android:textSize="@dimen/OpcionesSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/processor_img3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/starts_rating_3"
+                    app:layout_constraintTop_toBottomOf="@+id/starts_rating_3"
+                    tools:ignore="SpUsage" />
+
+                <ImageView
+                    android:id="@+id/starts_rating_3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:src="@drawable/rating_stars"
+                    app:layout_constraintBottom_toTopOf="@+id/precio_processor_product3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/title_processor_product3"
+                    app:layout_constraintTop_toBottomOf="@+id/title_processor_product3"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/containerProduct4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_margin"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/small_margin"
+                android:layout_marginBottom="@dimen/margin_wide"
+                android:background="@drawable/backbround_for_products_circle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/processor_img4"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:src="@drawable/fuente"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title_processor_product4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginEnd="@dimen/small_margin"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/Fuente_name"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/backgroundWhite"
+                    android:textSize="@dimen/OpcionesSize"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/processor_img4"
+                    app:layout_constraintTop_toTopOf="@+id/processor_img4"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/precio_processor_product4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/precio_fuente"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/backgroundWhite"
+                    android:textSize="@dimen/OpcionesSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/processor_img4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/starts_rating_4"
+                    app:layout_constraintTop_toBottomOf="@+id/starts_rating_4"
+                    tools:ignore="SpUsage" />
+
+                <ImageView
+                    android:id="@+id/starts_rating_4"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:src="@drawable/rating_stars"
+                    app:layout_constraintBottom_toTopOf="@+id/precio_processor_product4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/title_processor_product4"
+                    app:layout_constraintTop_toBottomOf="@+id/title_processor_product4"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>
